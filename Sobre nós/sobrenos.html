@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre Nós</title>
+  <link rel="stylesheet" href="../styles/sobrenos.css" />
+  <link rel="stylesheet" href="../styles/cabeçalho.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="ham_menu" onclick="toggleMenu()">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <figure>
+      <a href="../index.html"><img src="../fotos/logo.png" alt="Utopia do Amanhã"></a>
+    </figure>
+  </header>
+  <main>
+    <figure>
+      <img src="../fotos/imgSobreNos.jpeg" alt="" style="object-position: 0 -65vh;">
+    </figure>
+    <article>
+      <h1>Bem-vindo à nossa seção Sobre Nós!</h1>
+      <h2>Aqui você encontrará respostas para as perguntas mais comuns sobre o nosso site:</h2>
+      <section>
+        <div class="sobre" onclick="toggleDrop(1)">
+          <h3 id="top1">1. O que é este site e qual é o seu propósito?</h3>
+          <p id="p1">Nosso site é uma plataforma dedicada a fornecer informações úteis e recursos sobre notícias
+            positivas. Nosso objetivo é melhorar seu dia.</p>
+        </div>
+        <div class="sobre" onclick="toggleDrop(2)">
+          <h3 id="top2">2. Quais tipos de conteúdo posso encontrar neste site?</h3>
+          <p id="p2">Oferecemos uma variedade de conteúdos, incluindo artigos informativos, vídeos, notícias e muito
+            mais.</p>
+        </div>
+        <div class="sobre" onclick="toggleDrop(3)">
+          <h3 id="top3">3. Como posso navegar pelo site e encontrar o que estou procurando?</h3>
+          <p id="p3">Navegar pelo nosso site é fácil e intuitivo. Você pode usar o menu de navegação no topo da página
+            para explorar diferentes categorias de conteúdo ou utilizar a barra de pesquisa para encontrar informações
+            específicas.</p>
+        </div>
+        <div class="sobre" onclick="toggleDrop(4)">
+          <h3 id="top4">4. O conteúdo deste site é gratuito?</h3>
+          <p id="p4">Sim, todo o conteúdo do nosso site é gratuito para acessar. Nosso objetivo é fornecer informações
+            úteis e recursos valiosos sem nenhum custo para os nossos usuários.</p>
+        </div>
+        <div class="sobre" onclick="toggleDrop(5)">
+          <h3 id="top5">5. Posso compartilhar o conteúdo deste site em minhas redes sociais ou em outros sites?</h3>
+          <p id="p5">Sim, encorajamos os nossos usuários a compartilhar o conteúdo do nosso site em suas redes sociais
+            ou em outros sites, desde que seja atribuído o devido crédito ao nosso site.</p>
+        </div>
+        <div class="sobre" onclick="toggleDrop(6)">
+          <h3 id="top6">6. Como posso entrar em contato com a equipe do site se tiver alguma pergunta ou sugestão?</h3>
+          <p id="p6">Para entrar em contato conosco, você pode usar o formulário de contato disponível na página
+            "Contato" do nosso site. Teremos o maior prazer em ajudar e receber suas sugestões!</p>
+        </div>
+        <div class="sobre" onclick="toggleDrop(7)">
+          <h3 id="top7">7. Este site é atualizado regularmente com novo conteúdo?</h3>
+          <p id="p7">Sim, estamos sempre trabalhando para fornecer novo conteúdo e manter o nosso site atualizado.
+            Certifique-se de visitar o nosso site regularmente para ficar por dentro das últimas novidades e
+            informações.</p>
+        </div>
+        <div class="sobre" onclick="toggleDrop(8)">
+          <h3 id="top8">8. Este site oferece algum tipo de serviço de assinatura ou newsletter?</h3>
+          <p id="p8">No momento, não oferecemos serviço de assinatura ou newsletter. No entanto, você pode seguir nossas
+            redes sociais ou acompanhar nosso feed de notícias para receber atualizações sobre novos conteúdos.</p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <aside>
+    <nav id="sideMenu">
+      <div class="close_menu" onclick="toggleMenu()">
+        <div></div>
+      </div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../enviar/enviar.html">Envie sua história</a></li>
+        <li><a href="../Sobre nós/sobrenos.html">Sobre Nós</a></li>
+        <li><a href="../página de login/login.html">Login</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <footer>
+    <p>© 2024 Utopia do Amanhã. Todos os direitos reservados.</p>
+  </footer>
+  <script src="../script/javascript.js"></script>
+</body>
+
+</html>

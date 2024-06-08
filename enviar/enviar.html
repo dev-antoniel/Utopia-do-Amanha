@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/enviar.css" />
+  <link rel="stylesheet" href="../styles/cabeçalho.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Envie sua história</title>
+</head>
+
+<body>
+  <header>
+    <div class="ham_menu" onclick="toggleMenu()">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <a href="../index.html"><img src="../fotos/logo.png" alt="Utopia do Amanhã"></a>
+  </header>
+  <h1 class="titulo">Envie sua história!</h1>
+  <section>
+    <i class="fa-solid fa-user"></i>
+    <textarea name="userHist" id="userHist" placeholder="Escreva aqui a sua história!"></textarea>
+    <div id="enviar">
+      <div class="envArquivo">
+        <p class="envBotao"><b>Escolher arquivo</b></button>
+          <input type="file" class="envInput" onchange="nomeArquivo(this)" accept=".jpg,.jpeg,.png,.mov,.mp4,.wmv,.webm"
+            multiple>
+          <i class="fa-solid fa-check"></i>
+      </div>
+      <a href="#"><b>Enviar</b></a>
+    </div>
+  </section>
+
+  <article id="explicacao">
+    <h2>Nossa tela de envio de histórias foi projetada para ser intuitiva e fácil de usar. Siga estas etapas para
+      compartilhar sua história conosco:</h2>
+    <ol>
+      <li><b>Título da História:</b> Insira um título cativante que resuma o tema ou o ponto principal da sua história.
+      </li>
+      <li><b>Conteúdo da História:</b> No campo de texto, escreva sua história. Você pode digitar diretamente no espaço
+        fornecido ou copiar e colar de outro documento.</li>
+      <li><b>Adicionar imagens ou vídeos (Opcional):</b> Se desejar, você pode anexar mídias relevantes para
+        complementar sua história. Clique no botão "Adicionar Arquivos" e selecione os arquivos do seu dispositivo.</li>
+      <li><b>Categoria:</b> Cite a categoria que melhor descreve sua história, para que os leitores possam
+        encontrá-la mais facilmente.</li>
+      <li><b>Tags:</b> Adicione algumas palavras-chave (tags) que resumam os temas principais da sua história. Isso
+        ajuda na busca e organização do conteúdo.</li>
+      <li><b>Enviar:</b> Quando estiver satisfeito com sua história, clique em "Enviar". Nossa equipe revisará e
+        publicará sua história em breve.</li>
+    </ol>
+  </article>
+
+  <aside>
+    <nav id="sideMenu">
+      <div class="close_menu" onclick="toggleMenu()">
+        <div></div>
+      </div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../enviar/enviar.html">Enviar História</a></li>
+        <li><a href="../Sobre nós/sobrenos.html">Sobre Nós</a></li>
+        <li><a href="../página de login/login.html">Login</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <footer>
+    <p>© 2024 Utopia do Amanhã. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/941ff0b4e8.js" crossorigin="anonymous"></script>
+  <script src="../script/javascript.js"></script>
+</body>
+
+</html>

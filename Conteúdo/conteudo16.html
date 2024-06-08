@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Utopia do Amanhã</title>
+  <link rel="stylesheet" href="../styles/conteudo.css">
+  <link rel="stylesheet" href="../styles/cabeçalho.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="ham_menu" onclick="toggleMenu()">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <a href="../index.html"><img src="../fotos/logo.png" alt="Utopia do Amanhã"></a>
+  </header>
+  <main>
+    <section id="noticias">
+      <h1 class="tituloNot">Jovem agricultor revoluciona produção sustentável e inspira comunidade rural</h1>
+      <h3 class="subtituloNot">
+        Iniciativas ecológicas de João Silva transformam agricultura local e melhoram a qualidade de vida dos moradores.
+      </h3>
+      <div id="corpo">
+        <figure>
+          <img class="foto" src="../fotos/imgNot18.jpg" alt="" style="object-position: 0 -30px;" />
+          <figcaption>Imagem ilustrativa sobre o jovem chamado João Silva que fez agricultura sustentável.</figcaption>
+        </figure>
+        <article class="textoNot">
+          <p>
+            João Silva, um jovem agricultor de 28 anos, está mudando a face da agricultura em sua pequena cidade no
+            interior de Minas Gerais. Ao adotar práticas agrícolas sustentáveis, ele não só aumentou significativamente
+            sua produtividade, mas também se tornou um exemplo de inovação e cuidado com o meio ambiente para toda a
+            comunidade.
+          </p>
+          <p>
+            Depois de participar de um programa de capacitação oferecido por uma ONG local, João decidiu implementar
+            técnicas de agroecologia em sua fazenda. Ele investiu em compostagem, manejo integrado de pragas e uso de
+            energias renováveis. Os resultados foram impressionantes: sua produção aumentou 50% em menos de dois anos,
+            enquanto os custos operacionais diminuíram consideravelmente.
+          </p>
+          <p>
+            Além do sucesso econômico, João também se dedica a compartilhar seus conhecimentos com outros agricultores
+            da região. Ele organiza workshops e visitas guiadas à sua propriedade, demonstrando na prática como a
+            sustentabilidade pode ser benéfica. “Quero que todos entendam que é possível produzir mais e melhor,
+            respeitando a natureza e garantindo um futuro para as próximas gerações”, afirma João.
+          </p>
+          <p>
+            A história de João Silva tem inspirado muitos jovens da região a seguir seus passos, promovendo uma onda de
+            transformações positivas no setor agrícola local. Seu compromisso com a sustentabilidade e a educação
+            ambiental está criando um legado que vai muito além de sua própria fazenda.
+          </p>
+        </article>
+        <div id="comentarios">
+          <h2>Comentários:</h2>
+          <textarea name="" id="" placeholder="Digite seu comentário aqui!"></textarea>
+          <div class="botEnviar">
+            <a href="#"><b>Enviar</b></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="side">
+      <section class="lateral">
+        <h1>Recomendados</h1>
+        <div id="recomendados">
+          <div class="not1">
+            <a href="../Conteúdo/conteudo13.html">
+              <img src="../fotos/imgNot13.jpg" alt="" />
+              <h2>Brasil se torna o primeiro país a alcançar emissão zero de carbono</h2>
+            </a>
+          </div>
+          <div class="not2">
+            <div>
+              <a href="../Conteúdo/conteudo14.html">
+                <img src="../fotos/imgNot14.jpg" alt="" />
+                <h3>Cientistas descobrem cura definitiva para o câncer</h3>
+              </a>
+            </div>
+            <div>
+              <a href="../Conteúdo/conteudo15.html">
+                <img src="../fotos/imgNot15.jpg" alt="" />
+                <h3>Novo programa global erradica a fome e a pobreza extrema</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="lateral">
+        <h1>Histórias dos leitores</h1>
+        <div id="envuser">
+          <div class="user1">
+            <a href="../Conteúdo/conteudo18.html">
+              <img src="../fotos/imgNot16.jpg" alt="" />
+              <h2>Empresária transforma negócio em referência de sustentabilidade e responsabilidade social</h2>
+            </a>
+          </div>
+          <div class="user2">
+            <div>
+              <a href="../Conteúdo/conteudo17.html">
+                <img src="../fotos/imgNot17.jpg" alt="" />
+                <h3>Voluntária cria rede de apoio para crianças carentes</h3>
+              </a>
+            </div>
+            <div>
+              <a href="../Conteúdo/conteudo12.html">
+                <img src="../fotos/imgNot12.webp" alt="" />
+                <h3>Teresina recebe Conferência Regional do G20 e fortalece diálogo internacional</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <aside>
+    <nav id="sideMenu">
+      <div class="close_menu" onclick="toggleMenu()">
+        <div></div>
+      </div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../enviar/enviar.html">Envie sua história</a></li>
+        <li><a href="../Sobre nós/sobrenos.html">Sobre Nós</a></li>
+        <li><a href="../página de login/login.html">Login</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <footer style="margin-top: 12%;">
+    <p>© 2024 Utopia do Amanhã. Todos os direitos reservados.</p>
+  </footer>
+  <script src="../script/javascript.js"></script>
+</body>
+
+</html>

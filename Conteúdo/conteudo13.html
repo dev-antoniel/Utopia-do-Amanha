@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Utopia do Amanhã</title>
+  <link rel="stylesheet" href="../styles/conteudo.css">
+  <link rel="stylesheet" href="../styles/cabeçalho.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="ham_menu" onclick="toggleMenu()">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <a href="../index.html"><img src="../fotos/logo.png" alt="Utopia do Amanhã"></a>
+  </header>
+  <main>
+    <section id="noticias">
+      <h1 class="tituloNot">Brasil se torna o primeiro país a alcançar emissão zero de carbono</h1>
+      <h3 class="subtituloNot">
+        Iniciativas de preservação ambiental e energias renováveis colocam o país na vanguarda da sustentabilidade
+      </h3>
+      <div id="corpo">
+        <figure>
+          <img class="foto" src="../fotos/imgNot13.jpg" alt="" />
+          <figcaption>Essa imagem ilustra orgulho e felicidade diante dos brasileiros pela conquista de ter um país menos poluente.</figcaption>
+        </figure>
+        <article class="textoNot">
+          <p>
+            Em um movimento histórico e sem precedentes, o Brasil anunciou que alcançou a marca de emissão zero de
+            carbono, tornando-se o primeiro país do mundo a atingir esse feito monumental. Este marco foi alcançado
+            através de uma série de iniciativas inovadoras que englobam desde políticas públicas voltadas para a
+            preservação ambiental até investimentos robustos em energias renováveis.
+          </p>
+          <p>
+            Nos últimos anos, o governo brasileiro, em parceria com organizações não-governamentais e empresas privadas,
+            implementou programas rigorosos de reflorestamento, incentivou o uso de biocombustíveis e expandiu
+            substancialmente a capacidade de energia solar e eólica no país. Além disso, medidas rigorosas contra o
+            desmatamento ilegal foram reforçadas, resultando em uma significativa recuperação de áreas degradadas.
+          </p>
+          <p>
+            "Atingir a emissão zero de carbono é um testemunho do compromisso do Brasil com a sustentabilidade e a
+            proteção do nosso planeta", declarou o presidente em um pronunciamento oficial. "Esta conquista não seria
+            possível sem o esforço coletivo de todos os brasileiros, desde agricultores até cientistas, que trabalharam
+            incansavelmente para garantir um futuro mais verde."
+          </p>
+          <p>
+            Este feito coloca o Brasil como um líder global na luta contra as mudanças climáticas, servindo como um
+            exemplo inspirador para outras nações. A expectativa é que outras economias sigam o exemplo brasileiro,
+            adotando políticas similares para combater o aquecimento global e preservar o meio ambiente para as futuras
+            gerações.
+          </p>
+        </article>
+        <div id="comentarios">
+          <h2>Comentários:</h2>
+          <textarea name="" id="" placeholder="Digite seu comentário aqui!"></textarea>
+          <div class="botEnviar">
+            <a href="#"><b>Enviar</b></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="side">
+      <section class="lateral">
+        <h1>Recomendados</h1>
+        <div id="recomendados">
+          <div class="not1">
+            <a href="../Conteúdo/conteudo7.html">
+              <img src="../fotos/imgNot7.jpg" alt="" />
+              <h2>Brasil registra maior recuperação de Mata Atlântica em décadas</h2>
+            </a>
+          </div>
+          <div class="not2">
+            <div>
+              <a href="../Conteúdo/conteudo14.html">
+                <img src="../fotos/imgNot14.jpg" alt="" />
+                <h3>Cientistas descobrem cura definitiva para o câncer</h3>
+              </a>
+            </div>
+            <div>
+              <a href="../Conteúdo/conteudo15.html">
+                <img src="../fotos/imgNot15.jpg" alt="" />
+                <h3>Novo programa global erradica a fome e a pobreza extrema</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="lateral">
+        <h1>Histórias dos leitores</h1>
+        <div id="envuser">
+          <div class="user1">
+            <a href="../Conteúdo/conteudo18.html">
+              <img src="../fotos/imgNot16.jpg" alt="" />
+              <h2>Empresária transforma negócio em referência de sustentabilidade e responsabilidade social</h2>
+            </a>
+          </div>
+          <div class="user2">
+            <div>
+              <a href="../Conteúdo/conteudo17.html">
+                <img src="../fotos/imgNot17.jpg" alt="" />
+                <h3>Voluntária cria rede de apoio para crianças carentes</h3>
+              </a>
+            </div>
+            <div>
+              <a href="../Conteúdo/conteudo16.html">
+                <img src="../fotos/imgNot18.jpg" alt="" />
+                <h3>Jovem revoluciona produção sustentável e inspira comunidade</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <aside>
+    <nav id="sideMenu">
+      <div class="close_menu" onclick="toggleMenu()">
+        <div></div>
+      </div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../enviar/enviar.html">Envie sua história</a></li>
+        <li><a href="../Sobre nós/sobrenos.html">Sobre Nós</a></li>
+        <li><a href="../página de login/login.html">Login</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <footer style="margin-top: 10%;">
+    <p>© 2024 Utopia do Amanhã. Todos os direitos reservados.</p>
+  </footer>
+  <script src="../script/javascript.js"></script>
+</body>
+
+</html>
